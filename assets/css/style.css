@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #333;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container--flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.cantidad{
+    display: flex;
+    width: 400px;
+    border-right: 1px solid white;
+    height: 100vh;
+    justify-content: center;
+}
+
+.form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.text{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container--text{
+    width: 75%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: .5rem;
+
+}
+
+.text__input{
+   font-size: 1.2rem;
+}
+
+.input{
+    width: 6rem;
+    border-radius: 5px;
+    border-style: none;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.input--display{
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.container--input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    border-style: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 1rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.section__card{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 30px;
+
+}
+
+
+
+.card{
+    background-color: #444;
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card__img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card__title{
+    font-size: 1.4rem;
+}
+
+.card__span{
+    display: flex;
+    column-gap: 50px;
+}
+
+.card__text{
+    font-size: 1rem;
+    width: 250px;
+}
+
+.card__button{
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+    left: 6.5rem;
+    margin-bottom: 1rem;
+    padding: .2em 1em;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: orange;
+}

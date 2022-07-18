@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google fonts-->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container--flex">
+        <nav class="cantidad">
+            <form class="form" id="form">
+                <label for="cuartos" class="text">Cantidad de cuartos:</label>
+                <input type="number" name="cuartos" class="input" id="cuartos" value="2">
+                <label for="metros" class="text">Metros cuadrados</label>
+                <div class="container--text">
+                    <span class="text__input">desde:</span>
+                    <span class="text__input">hasta:</span>
+                </div>
+                <div class="container--input">
+                    <input type="number" name="metros" class="input input--display" id="metros1" value="100">
+                    <input type="number" name="metros" class="input" id="metros2" value="300">
+                </div>
+                <input type="submit" value="Buscar" class="button">
+            </form>
+        </nav>
+
+        <section class="section">
+            <h1 class="section__title" id="text"></h1>
+            <div class="section__card" id="card">
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
